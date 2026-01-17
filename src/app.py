@@ -6,9 +6,6 @@ import plotly.graph_objects as go
 from scipy import stats
 from dotenv import load_dotenv
 from pathlib import Path
-
-# If you already have these in fmp_client.py / event_study.py, import them instead.
-# For now, I’m importing from your existing logic style and keeping app.py self-contained.
 import requests
 
 
